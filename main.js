@@ -49,4 +49,14 @@ for (word of storyWords) {
   }
 
 
-console.log('sentences' , sentenceCount);
+ //logging all my data to the console
+ //try to create a function that lets you to log it in one go so youre not repeating code
+ 
+  console.log("Length of story:" , storyWords.length);
+  console.log("How many sentences we have throughout the story:" , sentenceCount);
+  console.log("How many times 'really' appears:" , reallyCount)
+  console.log("How many times 'very' appears:" , veryCount)
+  console.log("How many times 'basically' appears:" , basicallyCount)
+  
+  console.log(betterWords.join(" "));
+
