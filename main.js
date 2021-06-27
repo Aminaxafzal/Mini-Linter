@@ -40,13 +40,13 @@ if (word === "really"){
 
 // console.log("really count" , reallyCount);
 
-let sentenceCounter = 0;
+let sentenceCount = 0;
 
 for (word of storyWords) {
-  if (word === "." ){
-    sentenceCounter += 1;
+  if (word[word.length -1] === "." || word[word.length -1] === "!"){
+  sentenceCount += 1
   }
-}
+  }
 
-console.log('sentences' , sentenceCounter);
 
+console.log('sentences' , sentenceCount);
